@@ -1,0 +1,36 @@
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container h1 {
+  text-align: center;
+  margin: auto;
+}
+.container__header {
+  background-color: red;
+}
+.container__main {
+  background-color: green;
+  flex: 1;
+}
+.container__footer {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=index.css.map */
