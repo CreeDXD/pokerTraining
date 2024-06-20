@@ -20,7 +20,12 @@ body {
 }
 .container h1 {
   text-align: center;
-  margin: auto;
+}
+.container__header, .container__main, .container__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container__header {
   background-color: red;
@@ -28,6 +33,9 @@ body {
 .container__main {
   background-color: green;
   flex: 1;
+}
+.container__main h1 {
+  margin-bottom: 100px;
 }
 .container__footer {
   background-color: yellow;

@@ -16,12 +16,22 @@ body {
   height: 100%;
   h1 {
     text-align: center;
-    margin: auto;
+  }
+  &__header,
+  &__main,
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   &__header {
     background-color: red;
   }
   &__main {
+    & h1 {
+      margin-bottom: 100px;
+    }
     background-color: green;
     flex: 1;
   }
