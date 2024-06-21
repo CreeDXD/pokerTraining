@@ -12,7 +12,7 @@ body {
 }
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
   height: 100%;
   h1 {
     text-align: center;
