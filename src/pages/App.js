@@ -7,13 +7,13 @@ import Navigation from '../components/Navigation_menu'
 function App() {
   return (
     <div className="container">
-      <div className="container--main">
+      <div className="container--navigation">
+        <Navigation />
+      </div>
+      <div className="container--body">
         <Header />
         <Main />
         <Footer />
-      </div>
-      <div className="container--navigation">
-        <Navigation />
       </div>
     </div>
   )

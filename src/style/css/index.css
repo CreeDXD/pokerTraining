@@ -15,7 +15,10 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  height: 100%;
+}
+.container--body {
   height: 100%;
 }
 .container h1 {
@@ -26,6 +29,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .container__header {
   background-color: red;
