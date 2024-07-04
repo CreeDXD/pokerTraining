@@ -15,10 +15,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
-  height: 100%;
-}
-.container--body {
+  flex-direction: column;
   height: 100%;
 }
 .container h1 {
@@ -43,6 +40,12 @@ body {
 }
 .container__footer {
   background-color: yellow;
+}
+
+.playingcard {
+  width: 170px;
+  height: 280px;
+  background-color: brown;
 }
 
 /*# sourceMappingURL=index.css.map */

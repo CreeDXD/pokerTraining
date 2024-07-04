@@ -12,11 +12,8 @@ body {
 }
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
-  &--body {
-    height: 100%;
-  }
   h1 {
     text-align: center;
   }
@@ -42,4 +39,10 @@ body {
   &__footer {
     background-color: yellow;
   }
+}
+
+.playingcard {
+  width: 170px;
+  height: 280px;
+  background-color: brown;
 }

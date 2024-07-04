@@ -1,22 +1,23 @@
-import '../style/css/index.css'
-import { Main } from '../components/Main'
-import { Header } from '../components/Header'
-import { Footer } from '../components/Footer'
-import Navigation from '../components/Navigation_menu'
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 
-function App() {
+const App = () => {
   return (
-    <div className="container">
-      <div className="container--navigation">
-        <Navigation />
-      </div>
-      <div className="container--body">
-        <Header />
-        <Main />
-        <Footer />
-      </div>
+    <div>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/allcards">allcards</Link>
+          </li>
+          <li>
+            <Link to="/tworandomcards">two random cards</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
   )
 }
-
 export default App
