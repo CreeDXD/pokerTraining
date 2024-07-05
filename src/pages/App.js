@@ -13,7 +13,7 @@ const App = () => {
             <Link to="/allcards">allcards</Link>
           </li>
           <li>
-            <Link to="/tworandomcards">two random cards</Link>
+            <Link to="/hands">two random cards</Link>
           </li>
         </ul>
       </nav>

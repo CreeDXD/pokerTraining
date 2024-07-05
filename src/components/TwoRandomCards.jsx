@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { drawTwoCards } from '../redux/deckSlice'
 import { PlayingCard } from '../components/Card_playing_card'
+import { RefreshButton } from '../components/Button_refresh'
 
 export const TwoRandomCards = () => {
   const dispatch = useDispatch()

@@ -20,7 +20,7 @@ import App from './pages/App'
 import { AllCards } from './pages/AllCards'
 import { Provider } from 'react-redux'
 import store from './redux/store'
-import { TwoRandomCards } from './pages/twoRandomCards'
+import { Hands } from './pages/Hands'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -30,7 +30,7 @@ root.render(
         <Routes>
           <Route exact path="/" element={<App />} />
           <Route exact path="/allcards" element={<AllCards />} />
-          <Route exact path="/tworandomcards" element={<TwoRandomCards />} />
+          <Route exact path="/hands" element={<Hands />} />
           <Route path="*" element={<App />} />
         </Routes>
       </Router>
